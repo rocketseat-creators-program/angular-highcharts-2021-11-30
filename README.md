@@ -4,7 +4,7 @@
 
 Nessa aula iremos implementar gráficos de pizza e barras utilizando o Highcharts em nossa aplicação Angular. Mostraremos a quantidade de itens por categoria em nossos gráficos de barras e pizza e também listaremos todos os itens com seus respectivos preços em um gráfico de barras na horizontal.
 
-- [Template utilizado na aula](https://github.com/rocketseat-experts-club)
+- [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-highcharts-2021-11-30/tree/template)
 
 ## Tecnologias
 
