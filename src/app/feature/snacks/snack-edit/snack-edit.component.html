@@ -1,0 +1,54 @@
+<section *ngIf="snack">
+    <h1 class="text-center">Edit Snack</h1>
+
+    <div class="d-flex justify-content-end">
+        <a routerLink="/snacks" class="btn btn-outline-info">
+            <i class="far fa-list-alt"></i>
+        </a>
+    </div>
+
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-row">
+            <div class="form-group col-sm-8">
+                <label>Name</label>
+                <input type="text" name="name" [(ngModel)]="snack.name" class="form-control" placeholder="Snack name...">
+            </div>
+            <div class="form-group col">
+                <label>Type</label>
+                <select name="type" [(ngModel)]="snack.type" class="form-control">
+                    <option value="">Select</option>
+                    <option value="BURGERS">Burger</option>
+                    <option value="DRINKS">Drink</option>
+                    <option value="CHIPS">Chips</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-sm-4">
+                <label>Price</label>
+                <input type="text" name="price" currencyMask [(ngModel)]="snack.price" class="form-control" placeholder="Price...">
+            </div>
+            <div class="form-group col">
+                <label>Image URL</label>
+                <input type="text" name="img" [(ngModel)]="snack.img" class="form-control" placeholder="URL...">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea rows="4" name="description" [(ngModel)]="snack.description" class="form-control" placeholder="Snack description..."></textarea>
+        </div>
+
+        <div class="form-row">
+            <div class="col">
+                <a routerLink="/snacks" class="btn btn-block btn-outline-secondary">
+                    Back
+                </a>
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-block btn-outline-success">
+                    Update
+                </button>
+            </div>
+        </div>
+    </form>
+</section>

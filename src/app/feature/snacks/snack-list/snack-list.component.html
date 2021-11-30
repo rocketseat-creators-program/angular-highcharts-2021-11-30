@@ -1,0 +1,50 @@
+<section>
+    <h1 class="text-center">Menu</h1>
+
+    <div class="d-flex justify-content-end">
+        <div class="btn-group" role="group">
+            <a routerLink="/snacks/chart" class="btn btn-outline-info">
+                <i class="fas fa-chart-pie"></i>
+            </a>
+            <a routerLink="/snacks/new" class="btn btn-outline-success">
+                <i class="fas fa-plus"></i>
+            </a>
+        </div>
+    </div>
+
+    <div *ngFor="let typedSnack of typedSnacks">
+        <h2 class="my-4">{{typedSnack.type}}</h2>
+        <hr>
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col mb-3" *ngFor="let snack of typedSnack.snacks">
+                <div class="card h-100">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <img [src]="snack.img || '/assets/images/no-image.png'" width="140" alt="Burguer">
+                        </div>
+                        <div class="col-md-8">
+                            <div
+                                class="card-header d-flex justify-content-end bg-transparent border-0 py-2 float-right">
+                                <div class="btn-group pb-2 border-bottom" role="group">
+                                    <button type="button" class="btn btn-sm btn-outline-info" (click)="onEditClick(snack)">
+                                        <i class="far fa-fw fa-edit"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-danger" (click)="onDeleteClick(snack)">
+                                        <i class="far fa-fw fa-trash-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body py-2">
+                                <h5 class="card-title mb-0">{{snack.name}}</h5>
+                                <p class="card-text mb-2">
+                                    <small class="text-muted">{{snack.price | currency:'R$ '}}</small>
+                                </p>
+                                <p class="card-text text-justify">{{snack.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
