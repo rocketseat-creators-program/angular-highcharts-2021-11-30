@@ -1,0 +1,76 @@
+{
+  "snacks": [
+    {
+      "id": 1,
+      "name": "The Classic",
+      "type": "BURGERS",
+      "price": 18,
+      "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/03/Foto-X-Burguer-Hamburguer-Cheeseburguer-PNG-1024x853.png",
+      "description": "Vivamus eget purus non nibh vehicula eleifend. Proin euismod nulla sed euismod efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    },
+    {
+      "id": 2,
+      "name": "The Killer",
+      "type": "BURGERS",
+      "price": 34.90,
+      "img": "https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/03/X-Burguer-PNG-1009x1024.png",
+      "description": "Vestibulum facilisis nunc ut libero cursus, vel iaculis mi hendrerit. Vivamus vel nisi ipsum. Vestibulum elementum molestie augue ut efficitur. Sed ac posuere eros. Pellentesque ultricies purus nisi, in volutpat mi sagittis eu."
+    },
+    {
+      "id": 3,
+      "name": "The Tasty",
+      "type": "BURGERS",
+      "price": 31.90,
+      "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/03/Figura-X-Burguer-Hamburguer-Cheeseburguer-PNG.png",
+      "description": "Vestibulum facilisis nunc ut libero cursus, vel iaculis mi hendrerit. Vivamus vel nisi ipsum. Vestibulum elementum molestie augue ut efficitur. Sed ac posuere eros. Pellentesque ultricies purus nisi, in volutpat mi sagittis eu."
+    },
+    {
+      "id": 4,
+      "name": "The New Classic",
+      "type": "BURGERS",
+      "price": 24.90,
+      "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/03/Ilustra%C3%A7%C3%A3o-X-Burguer-Hamburguer-Cheeseburguer-PNG-1024x935.png",
+      "description": "Vestibulum facilisis nunc ut libero cursus, vel iaculis mi hendrerit. Vivamus vel nisi ipsum. Vestibulum elementum molestie augue ut efficitur. Sed ac posuere eros. Pellentesque ultricies purus nisi, in volutpat mi sagittis eu."
+    },
+    {
+      "id": 5,
+      "name": "Classic Fries",
+      "type": "CHIPS",
+      "price": 12.90,
+      "img": "https://www.nicepng.com/png/full/315-3156805_adicione-o-preparado-s-batatas-fritas-french-fries.png",
+      "description": "Nullam bibendum pretium justo, vitae feugiat turpis dictum at. Cras tempus scelerisque mi eget pulvinar. Vestibulum malesuada hendrerit velit, quis lobortis orci sagittis eu. Praesent eu commodo mauris. In sapien sem, commodo in varius ut, tincidunt quis urna."
+    },
+    {
+      "id": 6,
+      "name": "Premium Fries",
+      "type": "CHIPS",
+      "price": 19.90,
+      "img": "https://www.foodiesmania.com/wp-content/uploads/2020/09/pizzafriesmenu-300x264.png",
+      "description": "Nunc sagittis vehicula eros, sit amet blandit ante placerat at. Pellentesque sed augue non nisl eleifend semper non non odio. Pellentesque dui dui, accumsan ac convallis non, convallis quis sem."
+    },
+    {
+      "id": 7,
+      "name": "Coca-Cola",
+      "type": "DRINKS",
+      "price": 6,
+      "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/03/27.png",
+      "description": "Cras a fermentum leo. Nullam a tellus accumsan, interdum felis sit amet, tristique justo. Curabitur vulputate, sapien id interdum cursus, leo felis vestibulum mi, at mollis felis quam vel dolor."
+    },
+    {
+      "id": 8,
+      "name": "Fanta",
+      "type": "DRINKS",
+      "price": 6,
+      "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/03/27.png",
+      "description": "Duis dictum porta lobortis. Aliquam erat volutpat. Donec ullamcorper libero vitae pharetra vehicula. Donec a turpis sit amet elit fringilla gravida. Praesent varius ex ut euismod ullamcorper."
+    },
+    {
+      "id": 8,
+      "name": "Sprite",
+      "type": "DRINKS",
+      "price": 6,
+      "img": "https://www.imagensempng.com.br/wp-content/uploads/2021/03/27.png",
+      "description": "Duis dictum porta lobortis. Aliquam erat volutpat. Donec ullamcorper libero vitae pharetra vehicula. Donec a turpis sit amet elit fringilla gravida. Praesent varius ex ut euismod ullamcorper."
+    }
+  ]
+}
