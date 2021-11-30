@@ -1,0 +1,24 @@
+<div class="card" [style]="style" [ngClass]="class">
+    <div class="row no-gutters h-100">
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <img [src]="img || '/assets/images/no-image.png'" width="140" alt="Burguer">
+        </div>
+        <div class="col-md-8">
+            <div class="card-header d-flex justify-content-end bg-transparent border-0 py-2 float-right" *ngIf="canEdit || canDelete">
+                <div class="btn-group pb-2 border-bottom" role="group">
+                    <button type="button" class="btn btn-sm btn-outline-info" (click)="onEditClick()" *ngIf="canEdit">
+                        <i class="far fa-fw fa-edit"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-danger" (click)="onDeleteClick()" *ngIf="canDelete">
+                        <i class="far fa-fw fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card-body py-2">
+                <h5 class="card-title mb-0" *ngIf="title">{{title}}</h5>
+                <p class="card-text mb-2" *ngIf="titleMuted"><small class="text-muted">{{titleMuted}}</small></p>
+                <p class="card-text text-justify" *ngIf="body">{{body}}</p>
+            </div>
+        </div>
+    </div>
+</div>
