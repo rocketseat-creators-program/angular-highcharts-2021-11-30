@@ -1,27 +1,51 @@
-# AngularHighcharts
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+# Implementando gráficos com Highcharts em projetos Angular
 
-## Development server
+Nessa aula iremos implementar gráficos de pizza e barras utilizando o Highcharts em nossa aplicação Angular. Mostraremos a quantidade de itens por categoria em nossos gráficos de barras e pizza e também listaremos todos os itens com seus respectivos preços em um gráfico de barras na horizontal.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Template utilizado na aula](https://github.com/rocketseat-experts-club)
 
-## Code scaffolding
+## Tecnologias
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/)
+- [Node](https://nodejs.org/en/)
 
-## Build
+## Links úteis
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular CLI](https://angular.io/cli)
+    - [new](https://angular.io/cli/new)
+    - [generate](https://angular.io/cli/generate)
+- [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
+- [Bootstrap Doc](https://getbootstrap.com/docs/4.6/components/alerts/)
+- [Font Awesome](https://fontawesome.com)
+- [Highcharts](https://www.highcharts.com/demo)
 
-## Running unit tests
+## Ambiente, recursos e requisitos necessários
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node 14.17.5 (LTS);
+- Seu editor de código de preferência (No meu caso, Visual Studio Code);
+- Familiaridade com HTML, CSS e JavaScript;
+- Vontade de aprender :D
 
-## Running end-to-end tests
+## Comandos utilizados
+- npm install --save angular-highcharts
+- npm install --save highcharts
+- ng generate component features/snacks/snack-chart
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Testando a aplicação
+- Clone o repositório para a sua máquina
+- Abra um terminal na pasta principal da aplicação
+- Instale todas as dependências da aplicação utilizando o seguinte comando:
+    ```
+    npm install
+    ```
+- Antes de inicializar a aplicação, é necessário subir nossa fake API (Back-end server):
+    ```
+    npm run server
+    ```
+- Para rodar a aplicação, execute o comando:
+    ```
+    npm start
+    ```
+- Abra o seu browser na seguinte URL: http://localhost:4200
