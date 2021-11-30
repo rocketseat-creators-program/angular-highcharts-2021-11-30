@@ -10,7 +10,6 @@ import { SnackListComponent } from './snack-list/snack-list.component';
 import { SnackChartComponent } from './snack-chart/snack-chart.component';
 
 import { ChartModule } from 'angular-highcharts';
-import { SharedModule } from 'src/app/shared/shared.module';
 import { NgxCurrencyModule } from 'ngx-currency';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { NgxCurrencyModule } from 'ngx-currency';
   imports: [
     FormsModule,
     CommonModule,
-    SharedModule,
     SnacksRoutingModule,
 
     ChartModule,
