@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Chart } from 'angular-highcharts';
 import { Snack, TypedSnack } from '../snack';
 
 @Component({
@@ -9,7 +8,6 @@ import { Snack, TypedSnack } from '../snack';
 })
 export class SnackChartComponent implements OnInit {
 
-  chart!: Chart;
   chartType = "pie";
   chartCategory = "types";
 
