@@ -10,12 +10,14 @@ import { SnackListComponent } from './snack-list/snack-list.component';
 
 import { ChartModule } from 'angular-highcharts';
 import { NgxCurrencyModule } from 'ngx-currency';
+import { SnackChartComponent } from './snack-chart/snack-chart.component';
 
 @NgModule({
   declarations: [
     SnackListComponent,
     SnackNewComponent,
-    SnackEditComponent
+    SnackEditComponent,
+    SnackChartComponent
   ],
   imports: [
     FormsModule,
